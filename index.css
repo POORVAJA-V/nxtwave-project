@@ -4,22 +4,23 @@
     text-align: center;
     opacity: 1;
     background-position: absolute;
-    padding: 10px;
-    color: #0a0000;
+    color: #000000;
+    padding: 20px;
 }
 header{
+    margin: 1;
     text-align: center;
     color: #000000;
     backdrop-filter: blur(30px);
-    background:#f7f6ef;
+    background:#f0eded;
     background-size: cover;
     border-radius: 10px;
-    box-shadow: 2px 5px 5px rgb(240, 238, 209);
+    box-shadow: 2px 5px 5px rgb(247, 245, 227);
 }
 header h1{
     font-family:cursive;
     color: rgb(143, 5, 5);
-    margin-top: 20px;
+    margin-top: 30px;
     font-size:30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 3px 3px 5px #000000;
@@ -49,11 +50,11 @@ header img{
     justify-content: center;
     width: 70vw;
     margin-top: 40px;
-    backdrop-filter: blur(8px);
-    padding: 30px;
-    border: 2px solid #000000;
+    backdrop-filter: blur(12px);
+    padding: 10px;
+    border: 2px solid #f9ebeb;
     color: #000000;
-    margin-bottom: 20px;
+    
 }
 
 ul li{
@@ -92,13 +93,19 @@ ul li{
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-.table{
-    backdrop-filter: blur(7px);
-    margin-left: 100px;
-    width: 59vw;
+table{
+    backdrop-filter: blur(5px);
+    color:#000000;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+th{
+    font-weight: 900;
 }
 td{
-    font-weight: 500;
+    font-weight: 600;
 }
 .glow-on-hover:active {
     color: #000;
@@ -132,28 +139,29 @@ td{
 
 #sectionprocedure{
     background-image: url("mouse-chef.png");
-    height: 155vh;
+    height: 160vh;
     padding:20px;
     background-size: cover;
     text-align:center;
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center
 }
 
 .head{
-    font-size: 25px;
+    font-size: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px#ff0000;
     margin-top:40px;
     margin-bottom: 40px;
 }
 .lists{
-    backdrop-filter: blur(3.5px);
+    backdrop-filter: blur(5px);
     padding: 40px;
     color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 20px;
-    margin: 20px;
+    margin: 50px;
     list-style-position: outside;
 }
 .fact{
