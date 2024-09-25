@@ -95,7 +95,7 @@ ul li{
 .table{
     backdrop-filter: blur(7px);
     margin-left: 100px;
-    width: 60vw;
+    width: 59vw;
 }
 td{
     font-weight: 500;
@@ -158,9 +158,9 @@ td{
 }
 .fact{
     border:2px double rgb(0, 0, 0);
-    padding:30px;
+    padding:20px;
     margin-bottom: 20px;
-    width: 50vw;
+    width: 60vw;
     background-color: #ffffff;
     font-weight: 600;
    
