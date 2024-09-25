@@ -1,0 +1,157 @@
+.container{
+    background-color:#000000 ;
+    background-size: cover;
+    align-self: center;
+    opacity: 1;
+    background-position: absolute;
+    padding: 40px;
+    color: #ffffff;
+}
+header{
+    text-align: center;
+    color: #000000;
+    backdrop-filter: blur(30px);
+    background:#e3e2db;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 2px 5px 5px rgb(240, 238, 209);
+    border: 2px solid rgb(19, 173, 211);
+    padding: 10px;
+}
+header h1{
+    font-family:cursive;
+    color: rgb(143, 5, 5);
+    margin-top: 60px;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 5px #000000;
+    margin-bottom: 30px;
+    
+}
+header p{
+    font-family:Monospace;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+header img{
+    height: 45vh;
+    width: 35vw;
+    margin:10px;
+}
+.heading{
+    font-family:"Roboto";
+    margin: 10px;
+    color: #e3e2db;;
+    font-weight: bold;
+}
+
+.ingredients{
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 60px;
+   
+    padding: 30px;
+    color: #e3e2db;
+    margin-bottom: 20px;
+}
+
+ul li{
+   font-weight: 600;
+   list-style-type: square;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border-color:white;
+    outline: none;
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #e889e5, #ed49e2, #c057f1, #7115e1, #6525d3, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+#sectionprocedure{
+    background-image: url("mouse-chef.png");
+    height: 155vh;
+    padding:20px;
+    background-size: cover;
+    text-align:center;
+
+
+}
+
+.head{
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px#ff0000;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.lists{
+    backdrop-filter: blur(3.5px);
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px;
+    list-style-position: outside;
+}
+.fact{
+    border:2px double rgb(0, 0, 0);
+    padding:30px;
+    margin-bottom: 20px;
+    width: 50vw;
+    background-color: #ffffff;
+    font-weight: 600;
+   
+}
