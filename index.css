@@ -1,27 +1,25 @@
 .container{
-    background-color:#000000 ;
+    background-image: url("bg-img.png") ;
     background-size: cover;
-    align-self: center;
+    text-align: center;
     opacity: 1;
     background-position: absolute;
-    padding: 40px;
-    color: #ffffff;
+    padding: 10px;
+    color: #0a0000;
 }
 header{
     text-align: center;
     color: #000000;
     backdrop-filter: blur(30px);
-    background:#e3e2db;
+    background:#f7f6ef;
     background-size: cover;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 2px 5px 5px rgb(240, 238, 209);
-    border: 2px solid rgb(19, 173, 211);
-    padding: 10px;
 }
 header h1{
     font-family:cursive;
     color: rgb(143, 5, 5);
-    margin-top: 60px;
+    margin-top: 20px;
     font-size:30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 3px 3px 5px #000000;
@@ -35,29 +33,34 @@ header p{
     
 }
 header img{
-    height: 45vh;
+    height: 35vh;
     width: 35vw;
     margin:10px;
 }
 .heading{
     font-family:"Roboto";
     margin: 10px;
-    color: #e3e2db;;
+    color: #000000;;
     font-weight: bold;
 }
 
 .ingredients{
     border: 2px solid rgb(255, 255, 255);
-    margin-top: 60px;
-   
+    justify-content: center;
+    width: 70vw;
+    margin-top: 40px;
+    backdrop-filter: blur(8px);
     padding: 30px;
-    color: #e3e2db;
+    border: 2px solid #000000;
+    color: #000000;
     margin-bottom: 20px;
 }
 
 ul li{
-   font-weight: 600;
+    font-size: 20px;
+   font-weight: 700;
    list-style-type: square;
+   color: #000000;
 }
 
 .glow-on-hover {
@@ -89,7 +92,14 @@ ul li{
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-
+.table{
+    backdrop-filter: blur(7px);
+    margin-left: 100px;
+    width: 60vw;
+}
+td{
+    font-weight: 500;
+}
 .glow-on-hover:active {
     color: #000;
 }
