@@ -1,5 +1,5 @@
 .container{
-    background-image: url("bg-img.png") ;
+    background-image: url("procedure-bg.png") ;
     background-size: cover;
     text-align: center;
     opacity: 1;
@@ -8,22 +8,23 @@
     padding: 20px;
 }
 header{
-    margin: 1;
+    margin: 20px;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     backdrop-filter: blur(30px);
-    background:#f0eded;
+    background:#201f1f;
     background-size: cover;
     border-radius: 10px;
     box-shadow: 2px 5px 5px rgb(247, 245, 227);
 }
 header h1{
     font-family:cursive;
-    color: rgb(143, 5, 5);
+    color: rgb(211, 61, 61);
     margin-top: 30px;
     font-size:30px;
+    font-weight: 800;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 3px 3px 5px #000000;
+    text-shadow: 2px 2px 4px #ffffff;
     margin-bottom: 30px;
     
 }
@@ -139,7 +140,7 @@ td{
 
 #sectionprocedure{
     background-image: url("mouse-chef.png");
-    height: 160vh;
+    height: 180vh;
     padding:20px;
     background-size: cover;
     text-align:center;
@@ -152,16 +153,17 @@ td{
     font-size: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px#ff0000;
-    margin-top:40px;
+    margin-top:35px;
     margin-bottom: 40px;
 }
 .lists{
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
     padding: 40px;
     color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 20px;
-    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     list-style-position: outside;
 }
 .fact{
