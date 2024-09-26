@@ -56,6 +56,8 @@ header img{
     margin-top: 40px;
     backdrop-filter: blur(12px);
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid #000000;
     color: #000000;
     
@@ -135,7 +137,7 @@ td{
     left: 0;
     top: 0;
     border-radius: 10px;
-    margin-bottom: 20px;
+    
 }
 
 @keyframes glowing {
@@ -174,9 +176,11 @@ td{
 }
 .fact{
     border:2px solid rgb(0, 0, 0);
-    padding:20px;
+    padding:30px;
     margin-bottom: 20px;
     width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ffffff;
     font-weight: 600;
    
@@ -247,7 +251,7 @@ td{
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 100px;
+    border-radius: 80px;
 }
 
 .glow-on-hovering:before {
@@ -264,7 +268,7 @@ td{
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    border-radius: 100px;
+    border-radius: 80px;
 }
 .glow-on-hovering:hover:before {
     opacity: 1;
@@ -279,7 +283,7 @@ td{
     background: #ffffff;
     left: 0;
     top: 0;
-    border-radius: 100px;
+    border-radius: 80px;
 }
 
 @keyframes glowing {
